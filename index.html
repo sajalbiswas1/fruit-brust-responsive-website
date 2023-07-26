@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Brust</title>
 
-
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!-- font style lota -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,11 +27,43 @@
 </head>
 <body class="font">
     <header>
-        <nav>
-
+        <nav class="flex justify-between items-center mx-5 px-12 py-8 rounded-full relative bg-[#F85559]">
+            <div class="hidden lg:block md:block">
+                <div class="flex gap-3 text-white text-xl">
+                    <a href="">Home</a>
+                    <a href="">About Us</a>
+                    <a href="">Shop</a>
+                    <a href="">All Fruits</a>
+                </div>
+            </div>
+            <div class="flex justify-center items-center gap-4">
+                <img src="images/logo.png" alt="">
+                <h1 class="text-white text-4xl">Fruit Burst</h1>
+            </div>
+            <div>
+                <div class="form-control hidden lg:block md:block">
+                    <div class=" bg-white rounded-3xl pl-6">
+                      <input type="text" placeholder="Search here" class="input" />
+                      <i class="fa-solid fa-magnifying-glass p-3 "></i>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:hidden md:hidden">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">All Fruits</a></li>
+                    </ul>
+                </div>
+            </div>      
         </nav>
         <div>
-            
+
         </div>
     </header>
     <main>
